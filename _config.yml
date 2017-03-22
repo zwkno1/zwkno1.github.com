@@ -1,0 +1,58 @@
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "https://zwkno1.github.io" # the base hostname & protocol for your site.
+title: "XXX!!!"
+
+paginate: 6 #articles per page
+paginate_path: /blog/page:num #makes pagination working
+
+# header text
+header: XXX!!!
+
+# contacts
+git: "https://github.com/zwkno1"  #your github url here.
+stackoverflow: "http://github.com/zwkno1" #Add your stackoverflow url here.
+twitter: "https://github.com/zwkno1"  #Add your twitter url here.
+
+# for welcome page
+# to replace image go to index.html
+email:
+  address: "zwkno1@gmail.com"
+  text: "zwkno1 (at) gmail (dot) com"
+
+# disqus comment
+disqus:
+    shortname: "zwkno1" #your disqus comment short name
+
+# google analytics
+google:
+    tracking-id: "UA-94071182-1" #your tracking id here
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+permalink: /posts/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

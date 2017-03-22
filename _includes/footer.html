@@ -1,0 +1,14 @@
+<footer>
+<hr/>
+  <div class="left">  
+    &copy;{{ site.time | date:"%Y" }}.
+    Built with <a href="http://zwkno1.github.io">zwk</a> 
+  </div>
+
+  <div class="right">
+    {% unless site.twitter == "" %}
+      <a href="{{site.twitter}}"><i class="fa fa-twitter fa-lg" style="color:#49B1F7;"></i></a>
+    </a>
+    {% endunless %}
+  </div>
+</footer>
