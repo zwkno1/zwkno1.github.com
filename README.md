@@ -20,8 +20,7 @@ Pull Requests always welcome.
 
 [github][pages]
 
-[pages]: http://pages.github.com
-[fork]: https://github.com/railsr/autm-rb/fork
+[pages]: https://github.com/kirqe/autm-rb
 
 ## Customization
     Edit **_config.yml** before using
