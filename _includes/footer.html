@@ -6,9 +6,14 @@
   </div>
 
   <div class="right">
+    {% unless site.git == "" %}
+		  <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>
+    {% endunless %}
+    <!--
     {% unless site.twitter == "" %}
       <a href="{{site.twitter}}"><i class="fa fa-twitter fa-lg" style="color:#49B1F7;"></i></a>
     </a>
     {% endunless %}
+    --!>
   </div>
 </footer>
