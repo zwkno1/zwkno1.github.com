@@ -1,5 +1,7 @@
-
-# Android刷机
+---
+title: "Android刷机"
+tags: [Android, 刷机] 
+---
  
 ## 刷recovery
 
